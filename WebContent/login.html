@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>login page</title>
+</head>
+<body>
+	<h3>欢迎来到登陆界面</h3>
+	<!--  /contactSys_jdbc/LoginServlet -->
+	<form action="/contactSys_jdbc/LoginServlet" method="get">
+		<table>
+			<tr>
+				<th>用户名:</th>
+				<th><input type="text" name="usrname" /></th>
+			</tr>
+			<tr>
+				<th>密码：</th>
+				<th><input type="text" name="passward" /></th>
+			</tr>
+			<tr>
+				<th><input type="submit" value="get登陆" /></th>
+			</tr>
+
+		</table>
+	</form>
+
+
+	<form action="/contactSys_jdbc/LoginServlet" method="post">
+		<table>
+			<tr>
+				<th>用户名:</th>
+				<th><input type="text" name="usrname" /></th>
+			</tr>
+			<tr>
+				<th>密码：</th>
+				<th><input type="text" name="passward" /></th>
+			</tr>
+			<tr>
+				<th><input type="submit" value="post登陆" /></th>
+			</tr>
+
+		</table>
+	</form>
+</body>
+</html>
