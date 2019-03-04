@@ -14,15 +14,16 @@ import javax.servlet.http.HttpServletResponse;
 /**
  * 添加联系人的逻辑
  * @author APPle
- *
+ *     
  */
 public class AddContactServlet extends HttpServlet {
-
+// test
 	public void doGet(HttpServletRequest request, HttpServletResponse response)
 			throws ServletException, IOException {
 		request.setCharacterEncoding("utf-8");
 		//1.接收参数
 		String name = request.getParameter("name");
+		
 		String gender = request.getParameter("gender");
 		String age = request.getParameter("age");
 		String phone = request.getParameter("phone");
